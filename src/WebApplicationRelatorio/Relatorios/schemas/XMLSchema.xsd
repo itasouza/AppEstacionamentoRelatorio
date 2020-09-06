@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema"
+    targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="RptEstacionar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="UsuarioCriacao" type="xs:string"/>
+        <xs:element name="ValorHora" type="xs:double"/>
+        <xs:element name="NumeroVaga" type="xs:int"/>
+        <xs:element name="PlacaVeiculo" type="xs:string"/>
+        <xs:element name="DataEntrada" type="xs:dateTime"/>
+        <xs:element name="DataSaida" type="xs:dateTime"/>
+        <xs:element name="ValorPago" type="xs:double"/>
+        <xs:element name="TempoDecorrido" type="xs:string"/>
+        <xs:element name="UsuarioFechamento" type="xs:string"/>
+        <xs:element name="LogoMarca" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+
+</xs:schema>
